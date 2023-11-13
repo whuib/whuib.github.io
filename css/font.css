@@ -3,6 +3,11 @@
     font-display: swap;
     src: url('../font/PingFangSC-Regular.woff2') format("truetype");
 }
+@font-face{
+    font-family: 'PingFangSC';
+    font-display: swap;
+    src: url('../font/PingFangSC-Medium.woff2') format("truetype");
+}
 body {
     font-family: 'PingFangSC';
 }
