@@ -1913,14 +1913,14 @@ figure.highlight pre .javascript .function {
 #article-container figure.highlight .highlight-tools:after {
   position: absolute;
 /* left: 14px, changed by whb */
-  left: 10px;
+  left: 1px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
   background: #fc625d;
   -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
   box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-  content: '';
+  content: ' ';
 }
 #article-container figure.highlight .highlight-tools .expand {
   right: 0;
