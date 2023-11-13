@@ -3366,6 +3366,9 @@ h1.page-title + .tag-cloud-list {
   background-attachment: scroll;
   background-position: bottom;
   background-size: cover;
+/* add by whb */
+  -webkit-box-shadow: 0 -5px 6px -5px rgba(133,133,133,0.6);
+  box-shadow: 0 -5px 6px -5px rgba(133,133,133,0.6);
 }
 #footer:before {
   position: absolute;
