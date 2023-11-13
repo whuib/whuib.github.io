@@ -1,8 +1,8 @@
 @font-face{
-    font-family: 'PingFang';
+    font-family: 'PingFangSC';
     font-display: swap;
-    src: url('../font/PingFang/PingFang Medium.ttf') format("truetype");
+    src: url('../font/PingFang/PingFangSC-Regular.woff2') format("truetype");
 }
 body {
-    font-family: 'PingFang';
+    font-family: 'PingFangSC';
 }
