@@ -1913,7 +1913,7 @@ figure.highlight pre .javascript .function {
 #article-container figure.highlight .highlight-tools:after {
   position: absolute;
 /* left: 14px, changed by whb */
-  left: 1px;
+  left: 12px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
