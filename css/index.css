@@ -3356,7 +3356,7 @@ h1.page-title + .tag-cloud-list {
 #footer-wrap {
   position: relative;
   padding: 40px 20px;
-  color: var(--light-grey);
+  color: var(--black);
   text-align: center;
 }
 #footer-wrap a {
