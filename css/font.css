@@ -2,11 +2,13 @@
     font-family: 'PingFangSC';
     font-display: swap;
     src: url('../font/PingFangSC-Regular.woff2') format("truetype");
+    font-weight: 400;
 }
 @font-face{
     font-family: 'PingFangSC';
     font-display: swap;
     src: url('../font/PingFangSC-Medium.woff2') format("truetype");
+    font-weight: 700;
 }
 body {
     font-family: 'PingFangSC';
