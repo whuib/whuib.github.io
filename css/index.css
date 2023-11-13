@@ -3368,8 +3368,13 @@ h1.page-title + .tag-cloud-list {
   background-size: cover;
 /* add by whb, you should set mask footer to false in _config.butterfly.yml, otherwise there will be some error make you 
   can not change color!*/
-  -webkit-box-shadow: 0 -5px 6px -5px rgba(133,133,133,0.6);
-  box-shadow: 0 -5px 6px -5px rgba(133,133,133,0.6);
+/* box-shadow: 0 -5px 6px -5px rgba(133, 133, 133, .6)*/
+  -webkit-box-shadow: var(--card-box-shadow);
+  box-shadow: var(--card-box-shadow);
+}
+#footer:hover {
+  -webkit-box-shadow: var(--card-hover-box-shadow);
+  box-shadow: var(--card-hover-box-shadow);
 }
 #footer-wrap {
   position: relative;
