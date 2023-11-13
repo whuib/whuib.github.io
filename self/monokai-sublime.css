@@ -21,9 +21,9 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 :root {
   --hl-color: #f8f8f2;
   --hl-bg: #23241f;
-  --hltools-bg: #000000;
+  --hltools-bg: #23241f;
   --hltools-color: #fff;
-  --hlnumber-bg: #000000;
+  --hlnumber-bg: #23241f;
   --hlnumber-color: #fff;
   --hlscrollbar-bg: #d3af86;
   --hlexpand-bg: #d3af86;
@@ -32,7 +32,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 .hljs {
   background: #23241f;
   color: #f8f8f2;
-  font-size: larger;
+  font-size: 20px;
 }
 
 .hljs-tag,
