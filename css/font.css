@@ -1,7 +1,7 @@
 @font-face{
     font-family: 'PingFangSC';
     font-display: swap;
-    src: url('../font/PingFang/PingFangSC-Regular.woff2') format("truetype");
+    src: url('../font/PingFangSC-Regular.woff2') format("truetype");
 }
 body {
     font-family: 'PingFangSC';
