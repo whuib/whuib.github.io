@@ -4049,7 +4049,7 @@ h1.page-title + .tag-cloud-list {
   position: absolute;
   top: 2px;
   right: 12px;
-  color: $black;
+  color: #fff;
   content: '\f1f9';
   font-size: 1.3em;
 }
