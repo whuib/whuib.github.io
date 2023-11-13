@@ -3373,8 +3373,7 @@ h1.page-title + .tag-cloud-list {
 }
 #footer-wrap {
   position: relative;
-/*padding: 40px 20px*/
-  padding: 10px 10px;
+  padding: 40px 20px;
   color: var(--black);
   text-align: center;
 }
