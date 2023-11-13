@@ -32,7 +32,11 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 .hljs {
   background: #23241f;
   color: #f8f8f2;
-  font-size: 20px !important;
+}
+
+.hljs,
+.hljs-number {
+  font-size: larger !important;
 }
 
 .hljs-tag,
