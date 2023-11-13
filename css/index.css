@@ -1944,7 +1944,7 @@ figure.highlight pre .javascript .function {
 }
 #article-container figure.highlight .highlight-tools .code-lang {
   left: 75px;
-  font-size: 5px;
+  font-size: 1em;
 }
 @-moz-keyframes code-expand-key {
   0% {
