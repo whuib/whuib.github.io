@@ -1820,7 +1820,7 @@ figure.highlight pre .javascript .function {
   align-items: center;
   overflow: hidden;
   min-height: 24px;
-  height: 2.15em;
+  height: 1.8em /* 2.15em */;
   background: var(--hltools-bg);
   color: var(--hltools-color);
   font-size: var(--global-font-size);
@@ -1904,7 +1904,7 @@ figure.highlight pre .javascript .function {
   border: none;
 }
 #article-container figure.highlight {
-  margin: 0 0 14px;
+  margin: 0 0 24px;
   border-radius: 7px;
   -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
