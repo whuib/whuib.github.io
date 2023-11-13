@@ -1,0 +1,13 @@
+@font-face{
+    font-family: 'PingFang';
+    font-display: swap;
+    src: url('../font/PingFang Regular.ttf') format("truetype");
+}
+@font-face{
+    font-family: 'FiraCode';
+    font-display: swap;
+    src: url('../font/FiraCode-Regular.ttf') format("truetype");
+}
+body {
+    font-family: 'PingFang','FiraCode';
+}
