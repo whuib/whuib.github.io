@@ -1914,7 +1914,8 @@ figure.highlight pre .javascript .function {
   position: absolute;
   left: 14px;
   width: 12px;
-  height: 12px;
+/* height: 12px, changed by whb */
+  height: 8px;
   border-radius: 50%;
   background: #fc625d;
   -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
@@ -1944,7 +1945,9 @@ figure.highlight pre .javascript .function {
 }
 #article-container figure.highlight .highlight-tools .code-lang {
   left: 75px;
+/* changed by whb */
   font-size: 1em;
+  font-weight: normal;
 }
 @-moz-keyframes code-expand-key {
   0% {
