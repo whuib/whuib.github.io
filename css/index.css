@@ -4049,7 +4049,7 @@ h1.page-title + .tag-cloud-list {
   position: absolute;
   top: 2px;
   right: 12px;
-  color: $black;
+  color: #fff;
   content: '\f1f9';
   font-size: 1.3em;
 }
@@ -4058,7 +4058,7 @@ h1.page-title + .tag-cloud-list {
   box-shadow: 0 0 8px 0 rgba(232,237,250,0.6), 0 2px 4px 0 rgba(232,237,250,0.5);
 }
 #post .post-copyright .post-copyright-meta {
-  color: #fff;
+  color: $black;
   font-weight: bold;
 }
 #post .post-copyright .post-copyright-meta i {
