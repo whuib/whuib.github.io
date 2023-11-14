@@ -1550,7 +1550,10 @@ h6 code {
 }
 table {
   display: table;
-  width: 100%;
+/* width: 100% */
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
   border-spacing: 0;
   border-collapse: collapse;
   empty-cells: show;
@@ -4187,7 +4190,8 @@ h1.page-title + .tag-cloud-list {
   padding-left: 6px;
 }
 #post .post-copyright .post-copyright-info a {
-  text-decoration: underline;
+/* text-decoration: underline */
+  text-decoration: none;
   word-break: break-word;
 }
 #post .post-copyright .post-copyright-info a:hover {
