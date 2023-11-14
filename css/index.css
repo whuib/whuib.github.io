@@ -1547,13 +1547,13 @@ h6 code {
 .table-wrap {
   overflow-x: scroll;
   margin: 0 0 20px;
+  text-align: center;
 }
 table {
   display: table;
 /* width: 100% */
   width: auto;
-  text-align: center;
-  margin: 0 auto;
+  margin: auto;
   border-spacing: 0;
   border-collapse: collapse;
   empty-cells: show;
@@ -2237,7 +2237,7 @@ figure.highlight pre .javascript .function {
   flex: 1 auto;
   margin: 0 auto;
   padding: 40px 15px;
-  max-width: 1200px;
+  max-width: 1300px;
   width: 100%;
 }
 @media screen and (max-width: 900px) {
@@ -2272,7 +2272,9 @@ figure.highlight pre .javascript .function {
   }
 }
 .layout > div:first-child {
-  width: 74%;
+/* page width */
+/* width: 74% */
+  width: 76%;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -2503,7 +2505,8 @@ figure.highlight pre .javascript .function {
   }
 }
 #recent-posts > .recent-post-item >.recent-post-info {
-  padding: 0 40px;
+/* padding: 0 40px */
+  padding: 40px;
   width: 58%;
 }
 @media screen and (max-width: 768px) {
@@ -2615,7 +2618,8 @@ h1.page-title + .tag-cloud-list {
   text-align: left;
 }
 #aside-content {
-  width: 26%;
+/*width: 26%*/
+  width: 24%;
 }
 @media screen and (min-width: 900px) {
   #aside-content {
@@ -3377,10 +3381,12 @@ h1.page-title + .tag-cloud-list {
 #footer-wrap {
   position: relative;
   padding: 40px 20px;
+/* color: var(--light-grey) */
   color: var(--black);
   text-align: center;
 }
 #footer-wrap a {
+/* color: var(--light-grey) */
   color: var(--black);
 }
 #footer-wrap a:hover {
