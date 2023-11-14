@@ -2448,7 +2448,8 @@ figure.highlight pre .javascript .function {
   -webkit-align-items: center;
   align-items: center;
   overflow: hidden;
-  height: 16.8em;
+/*height: 16.8em*/
+  height: auto;
 }
 @media screen and (max-width: 768px) {
   #recent-posts > .recent-post-item {
