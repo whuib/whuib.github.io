@@ -3373,11 +3373,11 @@ h1.page-title + .tag-cloud-list {
 #footer-wrap {
   position: relative;
   padding: 40px 20px;
-  color: var(--white);
+  color: var(--black);
   text-align: center;
 }
 #footer-wrap a {
-  color: var(--white);
+  color: var(--black);
 }
 #footer-wrap a:hover {
   text-decoration: underline;
