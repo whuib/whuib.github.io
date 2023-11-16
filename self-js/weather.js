@@ -17,6 +17,22 @@ WIDGET = {
     "fixed": "false",
     "vertical": "center",
     "horizontal": "left", // 左对齐
-    "key": "788262f16df6476eb46b946b052faac7"
+    "key": "d35d7cc97d5341fc8588399bcb0773a0"
   }
 }
+
+function insertAfter() {
+  var weather = document.createElement('div');
+  var nullElement = document.createElement('div');
+  weather.id = 'he-plugin-simple'; // weather元素，用来显示天气
+  nullElement.id = 'null_element'; // 空元素，用来扩展位置添加flex属性，并且在weather.css中剥夺掉blog-name的flex属性
+
+  var currentElement = document.getElementById('blog-info');
+  var parent = currentElement.parentNode;
+
+  parent.insertBefore(nullElement, currentElement.nextSibling);
+  parent.insertBefore(weather, currentElement.nextSibling);
+}
+insertAfter();
+
+
