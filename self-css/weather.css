@@ -1,4 +1,4 @@
-#blog-info { /* 还原为默认值  */
+#blog-info { /* blog-name元素占的空间还原为默认值  */
     flex: 0 1 auto !important; /* flex-grow: 0; flex-shrink: 1; flex-basis: auto; */
 }
 
