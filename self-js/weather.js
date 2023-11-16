@@ -10,7 +10,7 @@ WIDGET = {
     "aqiSize": "16",
     "weatherIconSize": "24",
     "alertIconSize": "18",
-    "padding": "10px 10px 8px 10px", // 上右下左
+    "padding": "10px 10px 10px 10px", // 上右下左
     "shadow": "0",
     "language": "auto",
     "borderRadius": "5",
