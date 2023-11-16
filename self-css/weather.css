@@ -1,0 +1,14 @@
+#blog-info { /* 还原为默认值  */
+    flex: 0 1 auto !important; /* flex-grow: 0; flex-shrink: 1; flex-basis: auto; */
+}
+
+#he-plugin-simple { /* 将blog-name的flex值传递到天气上即可  */
+    flex: 1 1 0% !important; /* flex-grow: 1; flex-shrink: 1; flex-basis: 0%; */
+}
+
+#he-plugin-simple,
+#he-plugin-simple > div.s-sticker,
+#he-plugin-simple > div.s-sticker > * {
+    color: inherit !important;
+    font-family: inherit !important;
+}
