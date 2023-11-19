@@ -1,0 +1,15 @@
+/* styles.css */
+p, 
+li, 
+.table-wrap,
+#recent-posts > .recent-post-item >.recent-post-info > .content,
+#nav .site-page
+{
+    font-size: 16px;
+    font-weight: 400;
+    /* color: #000; */
+    tab-size: 4;
+    /* -webkit-font-smoothing: antialiased; 文字边缘抗锯齿 */
+    word-break: break-word; /* 允许长单词或 URL 地址断开换行到下一行 */
+    word-wrap: break-word;
+}
