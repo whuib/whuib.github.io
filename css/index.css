@@ -2505,8 +2505,7 @@ figure.highlight pre .javascript .function {
   }
 }
 #recent-posts > .recent-post-item >.recent-post-info {
-/* padding: 0 40px */
-  padding: 40px;
+  padding: 0 40px;
   width: 58%;
 }
 @media screen and (max-width: 768px) {
