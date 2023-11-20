@@ -3,7 +3,8 @@
 }
 
 #null_element { /* 将blog-name的flex值传递到null_Element上即可  */
-    flex: 1 1 0% !important; /* flex-grow: 1; flex-shrink: 1; flex-basis: 0%; */
+    /* flex-grow: 1; flex-shrink: 1; flex-basis: 0%; */
+    flex: 1 1 0% !important;
 }
 
 #he-plugin-simple,

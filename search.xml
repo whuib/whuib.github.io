@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title>newnew</title>
-      <link href="/2023/11/20/newnew/"/>
-      <url>/2023/11/20/newnew/</url>
+      <title>CMD和PowerShell在环境变量中的执行循序问题</title>
+      <link href="/2023/11/21/CMD%E5%92%8CPowerShell%E5%9C%A8%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E4%B8%AD%E7%9A%84%E6%89%A7%E8%A1%8C%E5%BE%AA%E5%BA%8F%E9%97%AE%E9%A2%98/"/>
+      <url>/2023/11/21/CMD%E5%92%8CPowerShell%E5%9C%A8%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E4%B8%AD%E7%9A%84%E6%89%A7%E8%A1%8C%E5%BE%AA%E5%BA%8F%E9%97%AE%E9%A2%98/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="要点">要点</h3><ol><li>cmd中执行的命令只能调用<code>.bat</code>或者<code>.cmd</code>的文件，不能调用<code>.ps1</code>的文件；powershell中执行的命令则均可以调用</li><li>查找执行文件的顺序：<ol><li>系统环境变量</li><li>用户环境变量</li></ol></li><li>在powershell中，如果按照2查找到同一个文件夹下存在同名的不同类型脚本，则优先执行<code>.ps1</code>脚本。（例如：<code>Folder1</code>在环境变量中，其下有三个文件：<code>Folder1/xxx.cmd</code>、<code>Folder1/xxx.bat</code>、<code>Folder1/xxx.ps1</code>则优先执行<code>Folder1/xxx.ps1</code>）</li><li>在cmd中，如果按照2查找到同一个文件夹下存在同名的不同类型脚本，则优先执行<code>.bat</code>脚本（其次才是<code>.cmd</code>脚本）。cmd中不能直接执行<code>.ps1</code>脚本。</li><li><code>$PATH</code>本质上是一个字符串文件，因此是从头开始查找的。</li></ol><h3 id="参考">参考</h3><blockquote><ul><li><a href="https://juejin.cn/s/windows%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E7%94%9F%E6%95%88%E9%A1%BA%E5%BA%8F">windows环境变量生效顺序-掘金 (juejin.cn)</a></li><li><a href="https://www.cnblogs.com/codingmengmeng/p/7253143.html">windows环境变量PATH顺序的重要性 - 阿玛尼迪迪 - 博客园 (cnblogs.com)</a></li></ul></blockquote>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> cmd </tag>
+            
+            <tag> powershell </tag>
+            
+            <tag> windows </tag>
+            
+            <tag> 环境变量 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -43,19 +55,6 @@
             <tag> butterfly </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>个人喜欢的鬼畜视频</title>
-      <link href="/2023/11/07/%E9%AC%BC%E7%95%9C%E8%A7%86%E9%A2%91/"/>
-      <url>/2023/11/07/%E9%AC%BC%E7%95%9C%E8%A7%86%E9%A2%91/</url>
-      
-        <content type="html"><![CDATA[<h4 id="1、火力种田王2">1、火力种田王2</h4><div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=31252459&bvid=BV1pW411d7qj&cid=54605814&p=1&autoplay=false&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div>#### 2、夺命老家<div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=14426314&bvid=BV1Ex411s7Ro&cid=23536770&p=1&autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div>#### 3、马保国英语版<div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=330344775&bvid=BV14A411x7MG&cid=258460785&p=1&autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div>#### 4、马保国日语版<div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=415403327&bvid=BV1QV411a75M&cid=259079683&p=1&autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div>#### 5、灌醉baby<div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=11624347&bvid=BV1Ex41167SS&cid=19207983&p=1&autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div>#### 6、我的烤面筋，融化你的心<div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=21061574&bvid=BV1GW411g7mc&cid=34548366&p=1&autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div><h4 id="7、面筋哥-饿狼传说">7、面筋哥-饿狼传说</h4><div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=21433484&bvid=BV1iW411u7L2&cid=35269476&p=1&autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div><h4 id="8、你嫌弃破烂，抛弃了我">8、你嫌弃破烂，抛弃了我</h4><div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=4376808&bvid=BV1rs411z7ux&cid=7421185&p=1&autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div><h4 id="9、【神医RAP】我还治不死你？">9、【神医RAP】我还治不死你？</h4><div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=12012048&bvid=BV1qx411z7Rf&cid=19820718&p=1&autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div><h4 id="10、《愚公移山》">10、《愚公移山》</h4><div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=948598836&bvid=BV1Xs4y1s7tN&cid=986360153&p=1&autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div><h4 id="11、-小夏-要当明星">11、(小夏)要当明星</h4><div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=18757504&bvid=BV1hW411e7oH&cid=32510145&p=1&autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div><h4 id="12、【周某】我的看守所">12、【周某】我的看守所</h4><div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=7432563&bvid=BV1Ds411Y72E&cid=12155199&p=1&autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div><h4 id="13、杰哥不要啦（原版视频）">13、杰哥不要啦（原版视频）</h4><div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=838798450&bvid=BV1Tg4y1i7Dt&cid=211088300&p=1&autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div>]]></content>
-      
-      
       
     </entry>
     
@@ -105,25 +104,6 @@
         <tags>
             
             <tag> top </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>导航页</title>
-      <link href="/2023/11/06/TOC/"/>
-      <url>/2023/11/06/TOC/</url>
-      
-        <content type="html"><![CDATA[<h3 id="网课">网课</h3><ul><li><p><a href="https://open.163.com/newview/movie/courseintro?newurl=LHE4FRBU2">浙江大学公开课：数学传奇-网易公开课</a></p></li><li><p><a href="https://www.bilibili.com/video/BV16Z4y1U7oU/?spm_id_from=333.337.search-card.all.click&amp;vd_source=2bfbef2cded19313bc71690dee83e2d9">麻省理工学院 - MIT - 线性代数</a></p></li><li><p><a href="https://www.bilibili.com/video/BV1ib411t7YR/?spm_id_from=333.337.search-card.all.click&amp;vd_source=2bfbef2cded19313bc71690dee83e2d9">【线性代数的本质】- 3Blue1Brown</a></p></li><li><p><a href="https://space.bilibili.com/88461692/channel/series">3Blue1Brown视频合集</a></p></li><li><p><a href="https://www.bilibili.com/video/BV1Pa411X76s/?spm_id_from=333.337.search-card.all.click&amp;vd_source=2bfbef2cded19313bc71690dee83e2d9">2022吴恩达机器学习Deeplearning.ai课程</a></p></li><li><p><a href="https://www.bilibili.com/video/BV1Wv411h7kN/?spm_id_from=333.337.search-card.all.click">(强推)李宏毅2021/2022春机器学习课程</a></p></li><li><p><a href="https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=2bfbef2cded19313bc71690dee83e2d9">双语字幕]吴恩达深度学习deeplearning.ai</a></p></li><li><p><a href="https://www.bilibili.com/video/BV1Tb411M7FA/?spm_id_from=333.337.search-card.all.click&amp;vd_source=2bfbef2cded19313bc71690dee83e2d9">【算法】算法导论-麻省理工</a></p></li><li><p><a href="https://www.bilibili.com/video/BV1iW411d7hd/?spm_id_from=333.337.search-card.all.click&amp;vd_source=2bfbef2cded19313bc71690dee83e2d9">2015 CMU 15-213 CSAPP 深入理解计算机系统 课程视频</a></p></li><li><p><a href="https://www.icourse163.org/course/ZJU-199001?from=searchPage&amp;outVendor=zw_mooc_pcssjg_">程序设计入门——C语言_浙江大学_</a></p></li><li><p><a href="https://www.icourse163.org/course/ZJU-93001?from=searchPage&amp;outVendor=zw_mooc_pcssjg_">数据结构_浙江大学_</a></p></li><li><p><a href="https://www.bilibili.com/video/BV1nJ411V7bd/?spm_id_from=333.337.search-card.all.click">数据结构与算法基础（青岛大学-王卓）</a></p></li><li><p><a href="https://www.icourse163.org/course/BFU-1003382003?from=searchPage&amp;outVendor=zw_mooc_pcssjg_">Web前端开发_北京林业大学_</a></p></li><li><p><a href="https://search.bilibili.com/all?vt=74077605&amp;keyword=web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91&amp;from_source=webtop_search&amp;spm_id_from=333.1007&amp;search_source=5">web前端开发</a></p></li><li><p><a href="https://www.bilibili.com/video/BV1x7411H7wa/?spm_id_from=333.337.search-card.all.click&amp;vd_source=2bfbef2cded19313bc71690dee83e2d9">[MIT]计算机科学课堂中学不到的知识 The Missing Semester of Your CS Education(2020)</a></p></li><li><p><a href="https://missing.csail.mit.edu/">The Missing Semester of Your CS Education (mit.edu)</a></p></li></ul><h3 id="html在线书籍">html在线书籍</h3><ul><li><a href="https://www.hello-algo.com/">Hello 算法 (hello-algo.com)</a></li></ul><h3 id="其他">其他</h3><p>清华大学大佬的leetcode刷题笔记</p><ul><li><a href="https://github.com/soulmachine/leetcode">soulmachine/leetcode: LeetCode题解，151道题完整版</a></li></ul><p>数学历史、物理历史</p><ul><li><a href="https://www.zhihu.com/search?q=%E7%89%A9%E7%90%86%E5%8F%B2%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90&amp;search_source=Suggestion&amp;utm_content=search_suggestion&amp;type=content">物理史书籍推荐 - 搜索结果 - 知乎 (zhihu.com)</a></li><li><a href="https://www.zhihu.com/question/615520152/answer/3162506130">有没有推荐的物理学史书籍</a></li></ul><p>读论文相关</p><ul><li><a href="https://academic.chatwithpaper.org/">ChatGPT 学术优化 (chatwithpaper.org)</a></li></ul><p>linux命令</p><ul><li><a href="https://www.guru99.com/linux-commands-cheat-sheet.html">Linux Command Cheat Sheet (guru99.com)</a></li><li><a href="https://www.linuxcool.com/">Linux命令大全(手册)</a></li></ul><h3 id="博客儿的博客">博客儿的博客</h3><h4 id="大佬">大佬</h4><ul><li>hexo大佬：<a href="https://zsyyblog.com">Hexo 博客上手入门指南、性能优化、界面美化、扩展功能、各种疑难杂症等解决方案全系列合辑 | 竹山一叶 (zsyyblog.com)</a></li><li></li></ul><h4 id="hexo">hexo</h4><p>hexo主题网址：<a href="https://hexo.io/themes/">Themes | Hexo</a></p><table><thead><tr><th>预览网站</th><th>hexo主题名</th></tr></thead><tbody><tr><td><a href="https://niexiaotao.cn/collect/">我的收藏 - AirCloud 日常 (niexiaotao.cn)</a></td><td>AirCloud</td></tr><tr><td>这个网站能调取视频<a href="https://kwaa.github.io/hexo-theme-m/">Hexo (kwaa.github.io)</a></td><td>M</td></tr></tbody></table>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> text </tag>
             
         </tags>
       

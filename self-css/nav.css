@@ -1,0 +1,22 @@
+/* 导航栏做居中处理 */
+/* #nav-right{
+    flex:1 1 auto;
+    justify-content: flex-end;
+    margin-left: auto;
+    display: flex;
+    flex-wrap:nowrap;
+} */
+
+
+
+
+#nav .site-page:not(.child):after {
+    transition: all 0.05s ease-in-out;
+}
+
+/* 没效果，应该是没有对应的js，默认的js好像是在pug文件里 */
+/* #nav #search-button:hover,
+#nav .menus_items:hover,
+#nav .menus_items .menus_item:hover {
+    font-weight: 700;
+} */
