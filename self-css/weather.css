@@ -1,3 +1,8 @@
+:root {
+    --nav-blank-maxwidth: 177.33px;
+    --nav-blank-minwidth: 5px;
+}
+
 #blog-info,
 #he-plugin-simple,
 #search,
@@ -5,9 +10,13 @@
     flex: 0 0 auto !important; /* flex-grow: 0; flex-shrink: 1; flex-basis: auto; */
 }
 
-#null_element { /* 将blog-name的flex值传递到null_Element上即可  */
+#null_mid { /* 将blog-name的flex值传递到null_Element上即可  */
     /* flex-grow: 1; flex-shrink: 1; flex-basis: 0%; */
-    flex: 1 1 0% !important;
+    flex: 10 1 auto;
+    max-width: 900px;
+}
+#null_left, #null_right {
+    flex: 1 10 auto;
 }
 
 #menus {
@@ -16,11 +25,29 @@
     transform: translate(-50%, 0);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1155px) {
+    #null_mid {
+        flex: 1 1 auto;
+    }
+    #null_left, #null_right {
+        flex: 0 0 auto;
+    }
     #menus {
         position: relative;
         left: auto;
         transform: none;
+    }
+    #he-plugin-simple {
+        display: block;
+        width: auto;
+        overflow: visible;
+    }
+}
+@media screen and (max-width: 1300px) {
+    #he-plugin-simple {
+        display: none;
+        width: 0;
+        overflow: hidden;
     }
 }
 /* #nav {
