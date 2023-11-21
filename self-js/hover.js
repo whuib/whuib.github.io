@@ -18,12 +18,14 @@ elements.forEach(function(element) {
   // 鼠标移入事件
   element.addEventListener('mouseover', function() {
     // element.children[0].children[1].style.color = 'red';
-    element.children[0].children[1].style.fontSize = '20px';
+    element.children[0].children[0].style.fontSize = '20px'; // iconfont
+    element.children[0].children[1].style.fontSize = '20px'; // text
   });
 
   // 鼠标移出事件
   element.addEventListener('mouseout', function() {
     // element.children[0].children[1].style.color = 'unset';
-    element.children[0].children[1].style.fontSize = 'unset';
+    element.children[0].children[0].style.fontSize = '20px'; // iconfont
+    element.children[0].children[1].style.fontSize = 'inherit'; // text
   });
 });
