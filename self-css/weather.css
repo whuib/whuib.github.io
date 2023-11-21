@@ -1,11 +1,26 @@
-#blog-info { /* blog-name元素占的空间还原为默认值  */
-    flex: 0 1 auto !important; /* flex-grow: 0; flex-shrink: 1; flex-basis: auto; */
+#blog-info,
+#he-plugin-simple,
+#search,
+#menus { /* blog-name元素占的空间还原为默认值  */
+    flex: 0 0 auto !important; /* flex-grow: 0; flex-shrink: 1; flex-basis: auto; */
 }
 
 #null_element { /* 将blog-name的flex值传递到null_Element上即可  */
     /* flex-grow: 1; flex-shrink: 1; flex-basis: 0%; */
     flex: 1 1 0% !important;
 }
+
+#menus {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/* #nav {
+    max-width: 1300px;
+    position: relative;
+    margin: 0 auto;
+} 实现失败*/
 
 #he-plugin-simple,
 #he-plugin-simple > div.s-sticker,

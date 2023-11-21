@@ -23,15 +23,22 @@ WIDGET = {
 
 function insertAfter() {
   var weather = document.createElement('div');
-  var nullElement = document.createElement('div');
   weather.id = 'he-plugin-simple'; // weather元素，用来显示天气
+
+  var nullElement = document.createElement('div');
   nullElement.id = 'null_element'; // 空元素，用来扩展位置添加flex属性，并且在weather.css中剥夺掉blog-name的flex属性
 
+  var search = document.createElement('div');
+  search.id = 'search'; // search元素，用来装搜索button
+  
   var currentElement = document.getElementById('blog-info');
   var parent = currentElement.parentNode;
 
+  parent.insertBefore(search, currentElement.nextSibling);
   parent.insertBefore(nullElement, currentElement.nextSibling);
   parent.insertBefore(weather, currentElement.nextSibling);
+  search.appendChild(document.getElementById('search-button'));
+  
 }
 insertAfter();
 
