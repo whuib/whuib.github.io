@@ -24,7 +24,12 @@
     left: 50%;
     transform: translate(-50%, 0);
 }
-
+@media screen and (max-width: 1300px) {
+    #he-plugin-simple {
+        display: none;
+        width: 0;
+    }
+}
 @media screen and (max-width: 1155px) {
     #null_mid {
         flex: 1 1 auto;
@@ -38,18 +43,11 @@
         transform: none;
     }
     #he-plugin-simple {
-        display: block;
-        width: auto;
-        overflow: visible;
+        display: block!important;
+        width: auto!important;
     }
 }
-@media screen and (max-width: 1300px) {
-    #he-plugin-simple {
-        display: none;
-        width: 0;
-        overflow: hidden;
-    }
-}
+
 /* #nav {
     max-width: 1300px;
     position: relative;
