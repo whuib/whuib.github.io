@@ -24,7 +24,7 @@
     left: 50%;
     transform: translate(-50%, 0);
 }
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 800px)and (max-width: 1300px) {
     #he-plugin-simple {
         display: none;
         width: 0;
@@ -42,9 +42,11 @@
         left: auto;
         transform: none;
     }
+}
+@media screen and (max-width: 800px) {
     #he-plugin-simple {
-        display: block!important;
-        width: auto!important;
+        display: block;
+        width: auto;
     }
 }
 
