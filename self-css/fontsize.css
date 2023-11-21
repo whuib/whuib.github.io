@@ -1,15 +1,39 @@
 /* styles.css */
+/* 请注意，以下三者是不一样的意思，可以将光标hover一下，VSCode会给出提示：
+#nav.site-page
+#nav .site-page
+#nav>.site-page */
 p, 
-li, 
+li:not(#menus > div.menus_items > div.menus_item > ul.menus_item_child > li),
 .table-wrap,
 #recent-posts > .recent-post-item >.recent-post-info > .content,
-#nav .site-page
+#nav .site-page,
+#sidebar #sidebar-menus .menus_items .site-page
 {
+    /* font-size: 16px!important; */
+    font-family: '-apple-system', 'SF UI Text','Arial', 'PingFang SC', 'Noto Sans SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'sans-serif';
     font-size: 16px;
     font-weight: 400;
-    /* color: #000; */
     tab-size: 4;
-    /* -webkit-font-smoothing: antialiased; 文字边缘抗锯齿 */
     word-break: break-word; /* 允许长单词或 URL 地址断开换行到下一行 */
     word-wrap: break-word;
+}
+
+
+/* #menus > div.menus_items > div.menus_item > ul.menus_item_child > li a.site-page.child {
+    font-size: inherit;
+    font-weight: inherit;
+}*/
+
+/* span:not(figure span) {
+}  */
+
+/* 选择器优先级：id > class */
+/* figure span,
+code {
+    font-family: "FiraCode", "consolas", "Menlo", "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+} */
+#article-container pre,
+#article-container code {
+    font-family: "FiraCode", "consolas", "Menlo", "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", "sans-serif"!important;
 }

@@ -7,11 +7,21 @@
     flex-wrap:nowrap;
 } */
 
-
+/* 颜色透明 */
+#nav *::after,
+#nav *::selection,
+#nav .menus_items .menus_item .menus_item_child>.site-page.child
+{
+    background-color: transparent!important;
+}
+#nav a:hover {
+    background: transparent;
+}
 
 
 #nav .site-page:not(.child):after {
-    transition: all 0.05s ease-in-out;
+    /* transition: all 0.05s ease-in-out; */
+    transition: all 0 ease 0;
 }
 
 /* 没效果，应该是没有对应的js，默认的js好像是在pug文件里 */
