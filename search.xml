@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>Hexo+Butterfly-tags增加文章数量角标</title>
+      <link href="/2023/11/22/Hexo-Butterfly-tags%E5%A2%9E%E5%8A%A0%E6%96%87%E7%AB%A0%E6%95%B0%E9%87%8F%E8%A7%92%E6%A0%87/"/>
+      <url>/2023/11/22/Hexo-Butterfly-tags%E5%A2%9E%E5%8A%A0%E6%96%87%E7%AB%A0%E6%95%B0%E9%87%8F%E8%A7%92%E6%A0%87/</url>
+      
+        <content type="html"><![CDATA[<h1>Hexo+Butterfly-tags增加文章数量角标</h1><h2 id="方法：">方法：</h2><blockquote><p>参考：<a href="https://blog.eurkon.com/post/6687849c.html">Butterfly 标签云增加文章数上下标 | Eurkon</a></p></blockquote><h2 id="注意事项">注意事项</h2><p>修改了内置文件：<code>$&#123;hexo-root&#125;\node_modules\hexo-theme-butterfly\scripts\helpers\page.js</code></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> butterfly </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> tags </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CMD和PowerShell在环境变量中的执行循序问题</title>
       <link href="/2023/11/21/CMD%E5%92%8CPowerShell%E5%9C%A8%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E4%B8%AD%E7%9A%84%E6%89%A7%E8%A1%8C%E5%BE%AA%E5%BA%8F%E9%97%AE%E9%A2%98/"/>
       <url>/2023/11/21/CMD%E5%92%8CPowerShell%E5%9C%A8%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E4%B8%AD%E7%9A%84%E6%89%A7%E8%A1%8C%E5%BE%AA%E5%BA%8F%E9%97%AE%E9%A2%98/</url>
