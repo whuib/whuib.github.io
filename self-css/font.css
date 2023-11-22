@@ -1,22 +1,39 @@
-@font-face {
-    font-family: 'siyuan';
-    src: url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/siyuan/siyuan.eot');
-    src: url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/siyuan/siyuan.eot') format('embedded-opentype'), /* IE6-IE8 */
-         url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/siyuan/siyuan.woff2') format('woff2'), 
-         url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/siyuan/siyuan.woff') format('woff'),  /*chrome、firefox */
-         url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/siyuan/siyuan.ttf') format('truetype'),  /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-         url('https://cdn.jsdelivr.net/gh/Ratodo/Lib/fonts/siyuan/siyuan.svg') format('svg');
+/* styles.css */
+/* 请注意，以下三者是不一样的意思，可以将光标hover一下，VSCode会给出提示：
+#nav.site-page
+#nav .site-page
+#nav>.site-page */
+p, 
+li:not(#menus > div.menus_items > div.menus_item > ul.menus_item_child > li),
+.table-wrap,
+#recent-posts > .recent-post-item >.recent-post-info > .content,
+#nav .site-page,
+#sidebar #sidebar-menus .menus_items .site-page
+{
+    /* font-size: 16px!important; */
+    font-family: '-apple-system', 'SF UI Text','Arial', 'PingFang SC', 'Noto Sans SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'sans-serif';
+    font-size: 16px;
     font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+    tab-size: 4;
+    word-break: break-word; /* 允许长单词或 URL 地址断开换行到下一行 */
+    word-wrap: break-word;
 }
 
-/* *:not([class*="icon"]):not(i) {
-    font-family: "siyuan" !important;
+
+/* #menus > div.menus_items > div.menus_item > ul.menus_item_child > li a.site-page.child {
+    font-size: inherit;
+    font-weight: inherit;
+}*/
+
+/* span:not(figure span) {
+}  */
+
+/* 选择器优先级：id > class */
+/* figure span,
+code {
+    font-family: "FiraCode", "consolas", "Menlo", "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
 } */
-body {
-    font-family: 'siyuan';
+#article-container pre,
+#article-container code {
+    font-family: "FiraCode", "consolas", "Menlo", "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", "sans-serif"!important;
 }
-/* #article-container {
-    font-family: 'FiraCode';
-} */

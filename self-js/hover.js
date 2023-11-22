@@ -1,3 +1,7 @@
+// 本js用于各种hover事件目前包括：
+// 1. nav的hover事件
+
+
 // // 鼠标移入事件
 // document.querySelector('.test').onmouseover = function() {
 //   document.querySelector('.test').style.color = 'blue'

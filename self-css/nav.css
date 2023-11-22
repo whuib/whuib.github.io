@@ -1,3 +1,9 @@
+:root {
+    --nav-blank-maxwidth: 177.33px;
+    --nav-blank-minwidth: 5px;
+}
+
+
 /* 导航栏做居中处理 */
 /* #nav-right{
     flex:1 1 auto;
@@ -24,3 +30,73 @@
 #nav .menus_items .menus_item:hover {
     font-weight: 700;
 } */
+
+/* order在Flexbox布局（desplay:flex）中才有效果
+   所有子元素的默认order为0，如果想让其靠后显示，就指定order大于0 */
+#search {order: 2;}
+#menus {order: 1;}
+#null_right{order: 3;}
+
+#blog-info,
+#he-plugin-simple,
+#search,
+#menus { /* blog-name元素占的空间还原为默认值  */
+    flex: 0 0 auto !important; /* flex-grow: 0; flex-shrink: 1; flex-basis: auto; */
+}
+
+/* 中间空元素 */
+#null_mid { /* 将blog-name的flex值传递到null_Element上即可  */
+    /* flex-grow: 1; flex-shrink: 1; flex-basis: 0%; */
+    flex: 0 1 888px;
+    /* max-width: 888px; */
+}
+/* 两边空元素 */
+#null_left, #null_right {
+    flex: 1 1000 auto;
+}
+
+/* 菜单 */
+#menus {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    min-width: 574px;
+}
+/* 宽度较窄时不显示和风天气插件，等menus变形之后再出现 */
+@media screen and (min-width: 800px)and (max-width: 1300px) {
+    #he-plugin-simple {
+        display: none;
+        width: 0;
+    }
+    #null_mid {
+        flex: 0 1 1100px;
+    }
+}
+
+/* 还原之前的配置 */
+@media screen and (max-width: 900px) {
+    #search {order: 1;}
+    #menus {order: 2;}
+    #null_right{order: 3;}
+
+    #null_mid {
+        flex: 1 1 auto;
+    }
+    #null_left, #null_right {
+        flex: 0 0 auto;
+    }
+    #menus {
+        position: relative;
+        left: auto;
+        transform: none;
+        min-width: 0;
+        /* flex: 0 0 auto; */
+    }
+}
+/* menus变形之后恢复和风天气 */
+@media screen and (max-width: 800px) {
+    #he-plugin-simple {
+        display: block;
+        width: auto;
+    }
+}

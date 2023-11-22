@@ -1,3 +1,6 @@
+/* 文章双列排布 */
+
+
 #recent-posts{
     margin-top:-1rem;  /*头部为空时抵消间隔，若有磁贴或日历请注释掉该行*/
     align-content:flex-start;
@@ -63,6 +66,7 @@
     margin-bottom: 1rem;控制标题meta信息的底部间距
 } */
 @media screen and (max-width: 768px) {
-#recent-posts > .recent-post-item {
- width:100%;/*控制手机自适应*/
+  #recent-posts > .recent-post-item {
+  width:100%;/*控制手机自适应*/
+  }
 }
