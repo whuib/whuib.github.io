@@ -4,6 +4,58 @@
   
     
     <entry>
+      <title>Algorithm-day1</title>
+      <link href="/2023/11/23/Algorithm-day1/"/>
+      <url>/2023/11/23/Algorithm-day1/</url>
+      
+        <content type="html"><![CDATA[<h1>Day1</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> algorithm </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> algorithm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Windows重装系统注意事项</title>
+      <link href="/2023/11/23/Windows%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
+      <url>/2023/11/23/Windows%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概述">概述</h2><ol><li>C盘照片</li><li>一些文件的主题文件配置：typora、sublimetext<br>typora：        C:\Users\whb\AppData\Roaming\Typora\themes                  中包括：typora的主题<br>sublimetext：E:\GREEN\sublime_text_build_4126_x64\Data\Packages\User中包括：build system、theme、complement、snippet</li><li>浏览器油猴插件备份<br>浏览器收藏夹备份、浏览器同步</li><li>重装以后：激活win、更改鼠标大小主题颜色、更新驱动（也可以不更新，因为新驱动可能会卡）、触控板驱动、<strong>打印机驱动</strong><br>3.环境变量：MinGW/bin、ffmpeg、python</li></ol><h2 id="需要备份的">需要备份的</h2><h3 id="列表">列表</h3><ul><li>软件列表</li><li>VSCode扩展列表</li><li>Edge扩展列表</li><li>环境变量列表</li></ul><h3 id="文件">文件</h3><ul><li>常规文件</li><li>软件<ul><li>免安装的绿色软件</li><li>难找到的安装软件（破解版、旧版本、花钱买的）</li><li>难下载的</li></ul></li><li>驱动文件<ul><li>MSYS2 C++编译环境</li><li>NFC驱动</li><li>打印机驱动</li><li>电脑初始驱动Drivers（不建议安装）</li></ul></li><li>Projects<ul><li>Git</li></ul></li><li>自己编写的脚本文件</li></ul><h3 id="软件及软件设置">软件及软件设置</h3><table><thead><tr><th>软件</th><th>软件设置</th><th>备注</th></tr></thead><tbody><tr><td>VSCode</td><td>VSCode设置、扩展列表、扩展的设置</td><td></td></tr><tr><td>Typora</td><td>主题CSS文件、设置、图床设置代码</td><td></td></tr><tr><td>Zotero</td><td>论文路径</td><td></td></tr><tr><td>TranslucentTB</td><td></td><td></td></tr><tr><td>LenovoLegionToolkit</td><td></td><td></td></tr></tbody></table><h3 id="系统设置">系统设置</h3><ul><li>微软键盘字体大小，词库（自定义关键词）</li><li>ssh（config、key）</li><li>终端相关<ul><li>WSL</li><li>GitBash</li><li>Nodejs</li></ul></li></ul><h3 id="注册表">注册表</h3><ul><li>win10右键菜单</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
+            
+            <tag> 重装系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo+Butterfly-tags增加文章数量角标</title>
       <link href="/2023/11/22/Hexo-Butterfly-tags%E5%A2%9E%E5%8A%A0%E6%96%87%E7%AB%A0%E6%95%B0%E9%87%8F%E8%A7%92%E6%A0%87/"/>
       <url>/2023/11/22/Hexo-Butterfly-tags%E5%A2%9E%E5%8A%A0%E6%96%87%E7%AB%A0%E6%95%B0%E9%87%8F%E8%A7%92%E6%A0%87/</url>
@@ -46,19 +98,6 @@
             <tag> 环境变量 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Tex</title>
-      <link href="/2023/11/20/Tex/"/>
-      <url>/2023/11/20/Tex/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
       
     </entry>
     

@@ -17,7 +17,7 @@
 }
 #recent-posts > .recent-post-item .post_cover {
   width: 100%; /*图片封面宽度*/
-  height: 200px; /*图片封面高度*/
+  height: 240px; /*图片封面高度*/
   /* height: auto; */
 }
 #recent-posts > .recent-post-item .post_cover img.post_bg {
@@ -25,10 +25,14 @@
   height: 100%;/*图片高度*/
 }
 
+/* 主页文章卡片中文字的padding */
+#recent-posts > .recent-post-item >.recent-post-info {
+  padding: 10px 20px;
+}
 
 #recent-posts > .recent-post-item >.recent-post-info > .content {
   /* 隐藏文章详情 */
-  display:none;
+  display: none; /*visible*/
 }
 #recent-posts > .recent-post-item {
 
