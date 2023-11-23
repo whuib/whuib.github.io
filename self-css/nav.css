@@ -48,18 +48,21 @@
 #null_mid { /* 将blog-name的flex值传递到null_Element上即可  */
     /* flex-grow: 1; flex-shrink: 1; flex-basis: 0%; */
     flex: 0 1 888px;
+    /* flex: 0 1 58%; */
     /* max-width: 888px; */
 }
 /* 两边空元素 */
 #null_left, #null_right {
     flex: 1 1000 auto;
+    /* flex: 1 1000 20%; */
 }
 
 /* 菜单 */
 #menus {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 0);
+    /* transform: translate(-50%, 0); */
+    transform: translateX(-50%);
     min-width: 574px;
 }
 /* 宽度较窄时不显示和风天气插件，等menus变形之后再出现 */
