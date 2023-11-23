@@ -38,7 +38,7 @@
       
       <categories>
           
-          <category> Top </category>
+          <category> top </category>
           
       </categories>
       
@@ -240,14 +240,14 @@
       
       <categories>
           
-          <category> TOP </category>
+          <category> top </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> TDL </tag>
+            <tag> todolist </tag>
             
         </tags>
       
