@@ -42,6 +42,33 @@
     
     
     <entry>
+      <title>Hexo+Butterfly-tags增加文章数量角标</title>
+      <link href="/posts/a55a7704.html"/>
+      <url>/posts/a55a7704.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="方法">方法</h2><blockquote><p>参考：<a href="https://blog.eurkon.com/post/6687849c.html">Butterfly 标签云增加文章数上下标 | Eurkon</a></p></blockquote><h2 id="注意事项">注意事项</h2><p>修改了内置文件：<code>$&#123;hexo-root&#125;\node_modules\hexo-theme-butterfly\scripts\helpers\page.js</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo+Butterfly-博客生成永久链接</title>
       <link href="/posts/bc529766.html"/>
       <url>/posts/bc529766.html</url>
@@ -86,33 +113,6 @@
         <tags>
             
             <tag> problem </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hexo+Butterfly-tags增加文章数量角标</title>
-      <link href="/posts/a55a7704.html"/>
-      <url>/posts/a55a7704.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="方法">方法</h2><blockquote><p>参考：<a href="https://blog.eurkon.com/post/6687849c.html">Butterfly 标签云增加文章数上下标 | Eurkon</a></p></blockquote><h2 id="注意事项">注意事项</h2><p>修改了内置文件：<code>$&#123;hexo-root&#125;\node_modules\hexo-theme-butterfly\scripts\helpers\page.js</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> hexo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> butterfly </tag>
             
         </tags>
       
