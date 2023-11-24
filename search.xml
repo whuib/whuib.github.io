@@ -8,7 +8,7 @@
       <link href="/posts/ef0db8c.html"/>
       <url>/posts/ef0db8c.html</url>
       
-        <content type="html"><![CDATA[<ul><li>iframe嵌入的时候可以随文章的颜色变化而变化</li><li>embed和object嵌入的时候亮度是最高的</li><li></li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf</span><br></pre></td></tr></table></figure><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;100%&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure><iframe src="https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf" width="100%" height="100%"></iframe><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">embed</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf&quot;</span> <span class="attr">type</span>=<span class="string">&quot;application/pdf&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;100%&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><div><embed src="https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf" type="application/pdf" width="100%" height="100%"></div><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf&quot;</span> <span class="attr">type</span>=<span class="string">&quot;application/pdf&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;1000px&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure><object data="https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf" type="application/pdf" width="100%" height="1000px"></object>]]></content>
+        <content type="html"><![CDATA[<ul><li>iframe嵌入的时候可以随文章的颜色变化而变化</li><li>embed和object嵌入的时候亮度是最高的</li><li></li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf</span><br></pre></td></tr></table></figure><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;100%&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure><iframe src="https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf" width="100%" height="100%"></iframe><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">embed</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf&quot;</span> <span class="attr">type</span>=<span class="string">&quot;application/pdf&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;100%&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure><embed src="https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf" type="application/pdf" width="100%" height="100%"><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf&quot;</span> <span class="attr">type</span>=<span class="string">&quot;application/pdf&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;1000px&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure><object data="https://cdn.jsdelivr.net/gh/whbcmon/CDN@main/pdf/3724dc5972a437334c65c1711987cb32.pdf" type="application/pdf" width="100%" height="1000px"></object>]]></content>
       
       
       
@@ -34,6 +34,33 @@
         <tags>
             
             <tag> algorithm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo+Butterfly-博客生成永久链接</title>
+      <link href="/posts/bc529766.html"/>
+      <url>/posts/bc529766.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="方法">方法</h2><blockquote><p>参考：<a href="https://imbhj.com/posts/b6a99401/">Hexo 博客生成永久链接 | Ordis’Blog (imbhj.com)</a><br>参考：<a href="https://github.com/rozbo/hexo-abbrlink">rozbo/hexo-abbrlink: create one and only link for every post for hexo (github.com)</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> butterfly </tag>
             
         </tags>
       
@@ -72,33 +99,6 @@
       <url>/posts/a55a7704.html</url>
       
         <content type="html"><![CDATA[<h2 id="方法">方法</h2><blockquote><p>参考：<a href="https://blog.eurkon.com/post/6687849c.html">Butterfly 标签云增加文章数上下标 | Eurkon</a></p></blockquote><h2 id="注意事项">注意事项</h2><p>修改了内置文件：<code>$&#123;hexo-root&#125;\node_modules\hexo-theme-butterfly\scripts\helpers\page.js</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> hexo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> butterfly </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hexo+Butterfly-博客生成永久链接</title>
-      <link href="/posts/bc529766.html"/>
-      <url>/posts/bc529766.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="方法">方法</h2><blockquote><p>参考：<a href="https://imbhj.com/posts/b6a99401/">Hexo 博客生成永久链接 | Ordis’Blog (imbhj.com)</a><br>参考：<a href="https://github.com/rozbo/hexo-abbrlink">rozbo/hexo-abbrlink: create one and only link for every post for hexo (github.com)</a></p></blockquote>]]></content>
       
       
       <categories>
