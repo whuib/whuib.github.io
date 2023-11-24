@@ -1,0 +1,7 @@
+#article-container,
+#post,
+#content-inner,
+#body-wrap,
+body {
+    height: 100%!important;
+}
