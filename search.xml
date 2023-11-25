@@ -67,11 +67,11 @@
     
     
     <entry>
-      <title>Hexo+Butterfly-博客生成永久链接</title>
-      <link href="/posts/bc529766.html"/>
-      <url>/posts/bc529766.html</url>
+      <title>Hexo+Butterfly-tags增加文章数量角标</title>
+      <link href="/posts/a55a7704.html"/>
+      <url>/posts/a55a7704.html</url>
       
-        <content type="html"><![CDATA[<h2 id="方法">方法</h2><blockquote><p>参考：<a href="https://imbhj.com/posts/b6a99401/">Hexo 博客生成永久链接 | Ordis’Blog (imbhj.com)</a><br>参考：<a href="https://github.com/rozbo/hexo-abbrlink">rozbo/hexo-abbrlink: create one and only link for every post for hexo (github.com)</a></p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h2 id="方法">方法</h2><blockquote><p>参考：<a href="https://blog.eurkon.com/post/6687849c.html">Butterfly 标签云增加文章数上下标 | Eurkon</a></p></blockquote><h2 id="注意事项">注意事项</h2><p>修改了内置文件：<code>$&#123;hexo-root&#125;\node_modules\hexo-theme-butterfly\scripts\helpers\page.js</code></p>]]></content>
       
       
       <categories>
@@ -94,11 +94,11 @@
     
     
     <entry>
-      <title>Hexo+Butterfly-tags增加文章数量角标</title>
-      <link href="/posts/a55a7704.html"/>
-      <url>/posts/a55a7704.html</url>
+      <title>Hexo+Butterfly-博客生成永久链接</title>
+      <link href="/posts/bc529766.html"/>
+      <url>/posts/bc529766.html</url>
       
-        <content type="html"><![CDATA[<h2 id="方法">方法</h2><blockquote><p>参考：<a href="https://blog.eurkon.com/post/6687849c.html">Butterfly 标签云增加文章数上下标 | Eurkon</a></p></blockquote><h2 id="注意事项">注意事项</h2><p>修改了内置文件：<code>$&#123;hexo-root&#125;\node_modules\hexo-theme-butterfly\scripts\helpers\page.js</code></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="方法">方法</h2><blockquote><p>参考：<a href="https://imbhj.com/posts/b6a99401/">Hexo 博客生成永久链接 | Ordis’Blog (imbhj.com)</a><br>参考：<a href="https://github.com/rozbo/hexo-abbrlink">rozbo/hexo-abbrlink: create one and only link for every post for hexo (github.com)</a></p></blockquote>]]></content>
       
       
       <categories>
