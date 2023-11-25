@@ -26,7 +26,3 @@ body {
     /* padding: 8px 18px; */
     padding: 0 18px;
 }
-
-#article-container .tabs > .tab-contents .tab-item-content > iframe {
-    height: 1265px;
-}
