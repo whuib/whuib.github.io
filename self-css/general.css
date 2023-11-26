@@ -28,6 +28,7 @@ table {
     margin: auto
 }
 
+/* pdf的iframe设置长度 */
 #article-container iframe {
     height: 1265px!important;
 }
