@@ -26,3 +26,13 @@ body {
     /* padding: 8px 18px; */
     padding: 0 18px;
 }
+
+
+/* 表格宽度调整 */
+.table-wrap {
+    text-align: left;
+}
+table {
+    width: auto;
+    margin: auto
+}
