@@ -36,3 +36,7 @@ table {
     width: auto;
     margin: auto
 }
+
+#article-container iframe {
+    height: 1265px!important;
+}
