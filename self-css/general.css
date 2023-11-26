@@ -1,12 +1,3 @@
-#article-container,
-#post,
-#content-inner,
-#body-wrap,
-body {
-    height: 100%!important;
-}
-
-
 /* 折叠标签和选择标签中内容的内外边距 */
 .toggle > .toggle-content {
     /* margin: 30px 24px; */
