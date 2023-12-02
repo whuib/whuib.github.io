@@ -29,6 +29,7 @@ table {
 }
 
 /* pdf的iframe设置长度 */
-#article-container iframe {
+/* ".pdf"是为了和".video"区分开来 */
+#article-container iframe.pdf {
     height: 1265px!important;
 }
