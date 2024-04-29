@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>字符格式问题2</title>
+      <link href="/posts/bae2b292.html"/>
+      <url>/posts/bae2b292.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="字符编码格式2">字符编码格式2</h2><p>在PowerShell脚本中，默认的字符串编码格式是UTF-16 Little Endian（LE）。这意味着PowerShell脚本中的字符串以UTF-16编码存储，而且采用小端序（Little Endian）字节顺序。</p><p>在PowerShell中，如果你使用的是默认的文本编辑器（如Notepad）保存脚本文件，那么保存的文件将以UTF-16 LE格式编码。如果你使用其他编辑器，并且在保存文件时选择了不同的编码格式，那么脚本文件的编码格式可能会有所不同。</p><p>VSCode默认的编解码格式是UTF-8，这样在VSCode中编辑的powershell脚本中的中文字符在保存时如果使用了默认的UTF-8，在执行该脚本输出中字符的时候就会乱码为其他字符。</p><p>解决方法就是在VSCode中使用UTF-16 Little Endian保存就好了！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> other </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> string </tag>
+            
+            <tag> encode&amp;decode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Practical-Insights</title>
       <link href="/posts/1d245994.html"/>
       <url>/posts/1d245994.html</url>
